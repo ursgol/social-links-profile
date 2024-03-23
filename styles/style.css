@@ -74,7 +74,7 @@ h5{
     text-align: center;
 }
 
-.links li:hover{
+.links button:hover{
     background-color: var(--primary-color);
 }
 
