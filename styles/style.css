@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:  hsl(75, 94%, 57%);
+    --neutral-color-white: hsl(0, 0%, 100%);
+    --neutral-color-grey: hsl(0, 0%, 20%);
+    --neutral-color-dark-grey:hsl(0, 0%, 12%);
+    --neutral-color-off-black: hsl(0, 0%, 8%);
+}
+
+body{
+    font-family: "Inter", "sans-serif";
+    font-size: 14px;
+    color: var(--neutral-color-white);
+    background-color: var(--neutral-color-off-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container{
+    background-color: var(--neutral-color-dark-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 330px;
+    border-radius: 10px;
+    margin: 90px 20px;
+    padding: 20px;
+
+
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img{
+    border-radius: 50%;
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+
+}
+
+h5{
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.links li{
+    list-style: none;
+    background-color: var(--neutral-color-grey);
+    padding:10px 70px;
+    margin: 15px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.links li:hover{
+    background-color: var(--primary-color);
+}
+
+.links li .link{
+    color: var(--neutral-color-white);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.links li a:hover{
+    color: var(--neutral-color-grey);
+    cursor: pointer;
+}
+
+
