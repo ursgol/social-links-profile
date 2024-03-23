@@ -65,16 +65,15 @@ h5{
     margin-bottom: 20px;
 }
 
-.links li{
+.links li {
     list-style: none;
     background-color: var(--neutral-color-grey);
     padding:10px 70px;
-    margin: 15px 20px;
+    margin: 15px 18px;
     border-radius: 10px;
     text-align: center;
 }
-
-.links button:hover{
+.links li:hover{
     background-color: var(--primary-color);
 }
 
